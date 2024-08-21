@@ -45,16 +45,16 @@ Task Tracker is a command-line application for managing tasks. You can add, upda
 - **delete**: Delete a task.
 
   ```bash
-  python task_cli.py delete <task_id>
+  python3 task_cli.py delete <task_id>
 
 - **mark-in-progress**: Mark a task as in-progress.
   ```bash
-  python task_cli.py mark-in-progress <task_id>
+  python3 task_cli.py mark-in-progress <task_id>
 
 - **mark-done**: Mark a task as done.
   ```bash
-  python task_cli.py mark-done <task_id>
+  python3 task_cli.py mark-done <task_id>
 
 - **list**: List all tasks or filter by status.
   ```bash
-  python task_cli.py list [status]
+  python3 task_cli.py list [status]
