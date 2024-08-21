@@ -2,7 +2,6 @@ import sys
 from task_manager import TaskManager
 
 import sys
-import traceback
 
 def task_cli():
     try:
@@ -60,7 +59,6 @@ def task_cli():
 
     except Exception as e:
         print("An error occurred:")
-        traceback.print_exc()
 
 
 
